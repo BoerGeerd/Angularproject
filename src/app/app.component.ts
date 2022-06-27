@@ -12,7 +12,7 @@ import { SportService } from './sport.service';
 
 export class AppComponent implements OnInit {
   sports: Sport[] = [];
-  sport: Sport =  {model:'', price:0, merk:''};
+  sport: Sport =  {model:'', price:0, };
 
   error = '';
   success = '';
